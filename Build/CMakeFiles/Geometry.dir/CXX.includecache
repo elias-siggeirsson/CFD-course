@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elias/Documents/Courses/CFD/Tests/cell.cpp
+cell.hpp
+/home/elias/Documents/Courses/CFD/Tests/cell.hpp
+
+/home/elias/Documents/Courses/CFD/Tests/cell.hpp
+geometry.hpp
+/home/elias/Documents/Courses/CFD/Tests/geometry.hpp
+vector
+-
+iostream
+-
+
+/home/elias/Documents/Courses/CFD/Tests/geometry.cpp
+geometry.hpp
+/home/elias/Documents/Courses/CFD/Tests/geometry.hpp
+iostream
+-
+
+/home/elias/Documents/Courses/CFD/Tests/geometry.hpp
+vector
+-
+
+/home/elias/Documents/Courses/CFD/Tests/main.cpp
+iostream
+-
+geometry.hpp
+/home/elias/Documents/Courses/CFD/Tests/geometry.hpp
+cell.hpp
+/home/elias/Documents/Courses/CFD/Tests/cell.hpp
+
